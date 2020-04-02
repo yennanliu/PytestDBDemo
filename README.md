@@ -1,6 +1,10 @@
 # PytestDBDemo
 
 ## Quick start 
+```bash
+pytest -v 
+
+```
 
 
 ## Ref 

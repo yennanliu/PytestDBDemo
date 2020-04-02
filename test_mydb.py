@@ -1,3 +1,13 @@
+"""
+Not good to test with below code/style
+
+1. code repetition
+2. duplicated DB connection 
+
+Way to fix 
+1. setup - teardown (classic way)
+2. fixtures 
+"""
 import pytest
 from mydb import MyDB
 
