@@ -2,8 +2,10 @@
 
 ## Quick start 
 ```bash
+# run the tests
 pytest -v 
-
+# run the tests & and see # of func called 
+pytest -v  --capture=no
 ```
 
 
