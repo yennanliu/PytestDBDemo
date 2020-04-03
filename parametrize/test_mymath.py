@@ -7,6 +7,7 @@ Way to fix
 1. pytest.mark.parametrize
 """
 import mymath
+import pytest
 
 def test_calc_square1():
     result = mymath.calc_square(5)
