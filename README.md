@@ -15,6 +15,8 @@
 
 ## Quick start 
 ```bash
+# install package
+pip install -r requirements.txt
 # run the tests
 pytest -v 
 # run the tests & and see # of func called 
