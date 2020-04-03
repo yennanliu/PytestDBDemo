@@ -8,7 +8,8 @@
 		- Modify with setup - tear down : [test_mydb_setup_teardown.py](https://github.com/yennanliu/PytestDBDemo/blob/master/test_mydb_setup_teardown.py)
 		- Modify with `pytest fixtures` : [test_my_db_fixtures.py](https://github.com/yennanliu/PytestDBDemo/blob/master/test_my_db_fixtures.py)
 	- pytest with parametrize
-		- Origin test : 
+		- Origin test : [test_mymath.py](https://github.com/yennanliu/PytestDBDemo/blob/master/parametrize/test_mymath.py)
+		- Modiffy with parametrize : [test_mymath_parametrize.py](https://github.com/yennanliu/PytestDBDemo/blob/master/parametrize/test_mymath_parametrize.py)
 
 ## Quick start 
 ```bash
