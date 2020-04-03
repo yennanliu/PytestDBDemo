@@ -1,5 +1,15 @@
 # PytestDBDemo
 
+## Intro
+- Unittest/test demo in python via [pytest](https://docs.pytest.org/en/latest/)
+- Context
+	- pytest with fixtures
+		- Origin test : [test_mydb.py](https://github.com/yennanliu/PytestDBDemo/blob/master/test_mydb.py)
+		- Modify with setup - tear down : [test_mydb_setup_teardown.py](https://github.com/yennanliu/PytestDBDemo/blob/master/test_mydb_setup_teardown.py)
+		- Modify with `pytest fixtures` : [test_my_db_fixtures.py](https://github.com/yennanliu/PytestDBDemo/blob/master/test_my_db_fixtures.py)
+	- pytest with parametrize
+		- Origin test : 
+
 ## Quick start 
 ```bash
 # run the tests
