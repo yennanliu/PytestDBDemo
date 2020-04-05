@@ -9,7 +9,7 @@
 		- Modify with setup - tear down : [test_mydb_setup_teardown.py](https://github.com/yennanliu/PytestDemo/blob/master/test_mydb_setup_teardown.py)
 		- Modify with `pytest fixtures` : [test_my_db_fixtures.py](https://github.com/yennanliu/PytestDemo/blob/master/test_my_db_fixtures.py)
 	- pytest with parametrize
-		- @pytest.mark.parametrize allows one to define multiple sets of arguments and fixtures at the test function or class.
+		- `@pytest.mark.parametrize` allows one to define multiple sets of arguments and fixtures at the test function or class.
 		- Origin test : [test_mymath.py](https://github.com/yennanliu/PytestDemo/blob/master/parametrize/test_mymath.py)
 		- Modiffy with parametrize : [test_mymath_parametrize.py](https://github.com/yennanliu/PytestDemo/blob/master/parametrize/test_mymath_parametrize.py)
 
@@ -25,5 +25,15 @@ pytest -v  --capture=no
 
 
 ## Ref 
-- https://www.youtube.com/watch?v=IVrGz8w0H8c
-- https://github.com/codebasics/py/tree/master/unittesting_pytest
+- Getting started
+	- https://nedbatchelder.com/text/test3.html?fbclid=IwAR22T3xAZDymqErQzlloy876-OB1LwtpTB7hT8SLoR-B9oqCsd38fZvz2sU
+	- https://realpython.com/tutorials/testing/
+- Mock
+	- https://realpython.com/python-mock-library/#patch
+- fixture
+	- https://docs.pytest.org/en/latest/fixture.html
+- interface
+	- https://realpython.com/python-interface/
+- Modify from 
+	- https://www.youtube.com/watch?v=IVrGz8w0H8c
+	- https://github.com/codebasics/py/tree/master/unittesting_pytest
