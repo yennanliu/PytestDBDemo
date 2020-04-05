@@ -21,6 +21,8 @@ pip install -r requirements.txt
 pytest -v 
 # run the tests & and see # of func called 
 pytest -v  --capture=no
+# run on sungle test
+pytest -k parametrize/test_mymath_parametrize.py
 ```
 
 
