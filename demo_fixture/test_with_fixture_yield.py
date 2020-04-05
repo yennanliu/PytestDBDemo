@@ -1,6 +1,7 @@
 """
-Demo init data with pytest.fixture 
-avoid repeated code and make code clean
+Not only test with pytest.fixture 
+but use "yield" so during fixture we can "clean up" the test data 
+to make sure the test env is back to its initial state 
 """
 
 # https://nedbatchelder.com/text/test3.html?fbclid=IwAR22T3xAZDymqErQzlloy876-OB1LwtpTB7hT8SLoR-B9oqCsd38fZvz2sU
@@ -27,7 +28,8 @@ def setup_product():
     p.add_prod(milk = 100)
     p.add_prod(banana = 30)
     p.add_prod(cheese = 70)
-    return p 
+    yield p 
+    p = Product()
 
 def test_get_prod_size(setup_product):
     prod_size = setup_product.get_prod_size()
